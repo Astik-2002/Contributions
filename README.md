@@ -2,6 +2,8 @@
 
 ### [AP DDS: Added imu data transmission via DDS ](https://github.com/ArduPilot/ardupilot/pull/26187)
 Enabled high frequency imu data transmission for offboard control and sensor fusion
+### [AP_DDS: Enabling offboard attitude control via ros2](https://github.com/ArduPilot/ardupilot/pull/26728)
+Enabled offboard attitude control by creating a custom ros message for angular setpoints (orientation, angular velocity and angular acceleration) and thrust
 ### [Custom Control:Added LQR-I controller for multirotor attitude control](https://github.com/ArduPilot/ardupilot/pull/26469)
 Development of LQR controller with integral action for quadcopter attitude control
 ### [Scripting: Modified Plane_doublet example](https://github.com/ArduPilot/ardupilot/pull/26472)
